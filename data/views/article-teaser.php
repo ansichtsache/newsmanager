@@ -2,6 +2,7 @@
     <?php if ($image != "") : ?>
     <div class="col-12">
         <h2><a href="<?=$url?>"><?=$title?></a></h2>
+        <h3><?=$subtitle?></h3>
         <small><?=$createdate?> | <?=$author?></small>
     </div>
     <div class="col-4">
