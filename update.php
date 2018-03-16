@@ -4,9 +4,9 @@
 
 // Diese Datei wird beim Update eines Addons über den Installer aufgerufen
 
-// Anpassung der DB-Tabellen jetzt über die sql_table-Api in der install.php, die hier eingebunden wird. Funktioniert erst ab Redaxo 5.4
+// Anpassung der DB-Tabellen zukünftig über die sql_table-Api in der install.php, die hier eingebunden wird. Funktioniert erst ab Redaxo 5.4
 
-$this->includeFile('install.php');
+// $this->includeFile('install.php');
 
 // $this->getVersion() liefert die noch aktuell installierte Version
 
